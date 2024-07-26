@@ -6,6 +6,6 @@ cp -r game server-config
 cp post.sh server-config
 cp pre.sh server-config
 
-tar -czf server-config.tar.gz server-config
+tar -czvf server-config.tar.gz -C server-config .
 
 rm -rf server-config
