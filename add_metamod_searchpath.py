@@ -2,7 +2,7 @@ import sys
 import os
 
 if len(sys.argv) != 2:
-    print("wrong argument count. expecting 2")
+    print(f"wrong argument count. expecting 1 {len(sys.argv)}")
     exit(1)
 
 file_to_edit = os.path.join(sys.argv[1],"gameinfo.gi")
