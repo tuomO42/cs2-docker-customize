@@ -17,7 +17,8 @@ unzip -o "temp1.zip" -d "${STEAMAPPDIR}/game"
 if [ -f "${STEAMAPPDIR}/gungame.json" ]; then
     cp "${STEAMAPPDIR}/gungame.json" "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.json"
 else
-    cp "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.json" "${STEAMAPPDIR}/gungame.json" 
+    cp "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.json" "${STEAMAPPDIR}/gungame.json"
+fi
 
 # if base image doesn't have python ur fucked
 
