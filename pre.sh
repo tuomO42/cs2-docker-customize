@@ -20,10 +20,4 @@ else
     cp "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.json" "${STEAMAPPDIR}/gungame.json"
 fi
 
-# if base image doesn't have python ur fucked
 
-#echo "installing python3"
-#echo "debug"
-#sudo apt update && sudo apt -y install python3
-
-#python3 add_metamod_searchpath.py "${CSGO_FOLDER_PATH}"
