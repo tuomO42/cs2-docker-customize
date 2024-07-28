@@ -14,7 +14,7 @@ unzip -o "temp.zip" -d "${STEAMAPPDIR}/game/csgo"
 wget -q -O "temp1.zip" "https://github.com/ssypchenko/cs2-gungame/releases/download/v1.1.2/GG2.plugin.1.1.2.zip"
 unzip -o "temp1.zip" -d "${STEAMAPPDIR}/game"
 
-wget -q -O "temp2.zip" "https://github.com/abnerfs/cs2-rockthevote/releases/download/v1.8.5/RockTheVote_v1.8.5.zip"
+wget -q -O "temp2.zip" "https://github.com/tuomO42/cs2-rockthevote/releases/download/changes/RockTheVote-edited.zip"
 unzip -o "temp2.zip" -d "${STEAMAPPDIR}/game/csgo/addons/counterstrikesharp/plugins"
 
 if [ -f "${STEAMAPPDIR}/gungame.json" ]; then
