@@ -20,4 +20,10 @@ else
     cp "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.json" "${STEAMAPPDIR}/gungame.json"
 fi
 
+if [ -f "${STEAMAPPDIR}/gungame.mapvote.cfg" ]; then
+    cp "${STEAMAPPDIR}/gungame.mapvote.cfg" "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.mapvote.cfg"
+else
+    cp "${CSGO_FOLDER_PATH}/cfg/gungame/gungame.mapvote.cfg" "${STEAMAPPDIR}/gungame.mapvote.cfg"
+fi
+
 
