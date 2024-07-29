@@ -28,7 +28,7 @@ cp -r ./default-configs/game "./extracted/"
 if [ ! -d "${STEAMAPPDIR}/defaults-backup" ]; then
     mkdir "${STEAMAPPDIR}/defaults-backup"
     mv ./extracted/game "${STEAMAPPDIR}/defaults-backup/game"
-    cp -r "${STEAMAPPDIR}/defaults-backup/game" "${STEAMAPPDIR}/game"
+    cp -r "${STEAMAPPDIR}/defaults-backup/game" "${STEAMAPPDIR}"
 
 elif ! diff -bur ./extracted/game "${STEAMAPPDIR}/defaults-backup/game" &>/dev/null ; then    
     cp -r ./extracted/game "${STEAMAPPDIR}/defaults-backup/"
