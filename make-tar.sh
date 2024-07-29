@@ -2,7 +2,7 @@
 
 mkdir server-config
 
-cp -r game server-config
+cp -r tmp-download server-config
 cp post.sh server-config
 cp pre.sh server-config
 
